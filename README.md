@@ -1,5 +1,4 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/NewBieBR/react-native-normalize.svg?style=popout)](https://codecov.io/gh/NewBieBR/typescript-react-native-starter)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 # React Native Normalize
