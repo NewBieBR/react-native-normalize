@@ -1,11 +1,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
+### Without `normalize`
+![](https://i.imgur.com/bLbnjsC.jpg)
+### With `normalize`
+![](https://i.imgur.com/4IqqAR2.jpg)
+
 # React Native Normalize
 
 **react-native-normalize** is a small and simple package that helps make your React Native app responsive easily.
 
-It comes with a function `normalize` that will adapt a value depending on the screen's width or height
+It comes with a function `normalize` that will adapt a value depending on the screen's width or height so you can use it for `width, height, top, bottom, fontSize, borderRadius,...`
 
 
 ```javascript
@@ -61,8 +66,3 @@ const styles = StyleSheet.create({
   },
 });
 ```
-
-### Without `normalize`
-![](https://i.imgur.com/bLbnjsC.jpg)
-### With `normalize`
-![](https://i.imgur.com/4IqqAR2.jpg)
