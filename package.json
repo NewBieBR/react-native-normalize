@@ -1,6 +1,6 @@
 {
   "name": "react-native-normalize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple function to make React Native app responsive easily",
   "main": "src/index.ts",
   "scripts": {
