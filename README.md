@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-### Without `normalize()`
+### Without `normalize`
 ![](https://i.imgur.com/bLbnjsC.jpg)
 ### With `normalize`
 ![](https://i.imgur.com/4IqqAR2.jpg)
