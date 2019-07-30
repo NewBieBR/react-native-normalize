@@ -1,0 +1,24 @@
+{
+  "name": "react-native-normalize",
+  "version": "1.0.0",
+  "description": "simple function to make React Native app responsive easily",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewBieBR/react-native-normalize.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Typescript"
+  ],
+  "author": "Hung Dao Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NewBieBR/react-native-normalize/issues"
+  },
+  "homepage": "https://github.com/NewBieBR/react-native-normalize#readme"
+}
