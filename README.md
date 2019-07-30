@@ -6,6 +6,23 @@
 
 **react-native-normalize** is a small and simple package that helps make your React Native app responsive easily.
 
+It comes with a function `normalize` that will adapt a value depending on the screen's width or height
+
+
+```javascript
+// on iPhone 8
+normalize(100)          // = 100
+normalize(50, 'height') // = 50
+
+// on iPhone 5s
+normalize(100)          // = 86
+normalize(50, 'height') // = 43
+
+// on iPhoneXs Max
+normalize(100)          // = 110
+normalize(50, 'height') // = 67
+```
+
 ## Quick example
 
 ```JSX
@@ -30,19 +47,23 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   box: {
-    top: normalize(50, 'height'),
-    left: normalize(30),
+    alignItems: 'center',
+    justifyContent: 'center',
+    top: normalize(180, 'height'),
+    left: normalize(40),
     width: normalize(300),
-    height: normalize(300, 'height'),
+    height: normalize(300),
+    borderRadius: normalize(150),
+    backgroundColor: '#009fcd',
   },
   text: {
-    fontSize: normalize(40),
+    fontSize: normalize(60),
+    color: 'white',
   },
 });
-
 ```
 
 ### Without `normalize()`
-![](https://i.imgur.com/Eb0C2hL.png)
+![](https://i.imgur.com/bLbnjsC.jpg)
 ### With `normalize`
-![](https://i.imgur.com/GQ8sTtk.png)
+![](https://i.imgur.com/4IqqAR2.jpg)
