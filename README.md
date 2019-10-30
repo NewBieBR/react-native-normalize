@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![npm version](https://badge.fury.io/js/react-native-normalize.svg)](https://badge.fury.io/js/react-native-normalize)
 
 ### Without `normalize`
 ![](https://i.imgur.com/bLbnjsC.jpg)
