@@ -3,9 +3,10 @@
 [![npm version](https://badge.fury.io/js/react-native-normalize.svg)](https://badge.fury.io/js/react-native-normalize)
 
 ### Without `normalize`
-![](https://i.imgur.com/bLbnjsC.jpg)
+<img src="https://i.imgur.com/bLbnjsC.jpg" width="600"/>
+
 ### With `normalize`
-![](https://i.imgur.com/4IqqAR2.jpg)
+<img src="https://i.imgur.com/4IqqAR2.jpg" width="600"/>
 
 # React Native Normalize
 
