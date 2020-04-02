@@ -1,8 +1,6 @@
-import { Dimensions, Platform, PixelRatio } from 'react-native';
+import { useWindowDimensions, Platform, PixelRatio } from 'react-native';
 
-export var { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get(
-  'window',
-);
+export var { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = useWindowDimensions();
 
 // based on iPhone 8's scale
 const wscale: number = SCREEN_WIDTH / 375;
